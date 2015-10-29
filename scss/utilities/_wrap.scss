@@ -1,0 +1,46 @@
+$wrap: 1400px;
+$pad: 20px;
+$break: 100px+$pad;
+.wrap{
+	max-width:$wrap+$pad ;
+  padding-right:20px;
+  padding-left:20px;
+	margin-right:auto;
+	margin-left:auto;
+  border:1px solid;
+	@extend %clearfix;
+}
+@media (max-width: $break){ 
+  .wrap{
+    max-width:100%;
+  }
+}
+
+.wrapSmall{
+	max-width:660px;
+	margin-right:auto;
+	margin-left:auto;
+	@extend %clearfix;
+}
+@media (max-width: 760px){ 
+  .wrapSmall{
+    max-width:100%;
+  }
+}
+
+
+
+@mixin wrap($wrapWidth, $mpad) {
+	max-width:$wrapWidth;
+	margin-right:auto;
+	margin-left:auto;
+  padding-right:$mpad;
+  padding-left:$mpad;
+	@extend %clearfix;
+	@media (max-width: $wrapWidth + 100){ 
+		&{
+			max-width:$mwidth;
+		}
+	}
+}
+/*@include wrap($width);*/

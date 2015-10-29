@@ -1,0 +1,33 @@
+.imgBlock{
+
+}
+.imgBlock-img{
+  display:block;
+  margin-bottom:$base/3;
+}
+.imgBlock-heading{
+  margin-bottom:$base/4;
+  font-weight:bold;
+  font-family:$font2;
+  text-transform:uppercase;
+}
+.imgBlock-sub{
+  margin-bottom:0;
+  font-style:italic;
+}
+
+.imgBlock-grid{
+	@extend .grid-row;
+	@include block-grid(4);
+	.imgBlock-grid-item{
+		@extend .block-grid-item;
+		position:relative;
+	}
+
+	@media (max-width: 715px){ 
+		@include block-grid(2);
+	}
+	@media (max-width: 427px){ 
+		@include block-grid(1);
+	}
+}
