@@ -8295,20 +8295,23 @@ body {
 }
 
 /*@include col($six);*/
-/* line 1, ../scss/utilities/_wrap.scss */
+/* line 4, ../scss/utilities/_wrap.scss */
 .wrap, .section-inner, .main .main-inner, .masthead .masthead-inner, .footerMain-inner, .navMain-inner {
-  max-width: 1010px;
+  max-width: 1420px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
+  border: 1px solid;
 }
 
-@media (max-width: 1110px) {
-  /* line 8, ../scss/utilities/_wrap.scss */
+@media (max-width: 120px) {
+  /* line 14, ../scss/utilities/_wrap.scss */
   .wrap, .section-inner, .main .main-inner, .masthead .masthead-inner, .footerMain-inner, .navMain-inner {
     max-width: 100%;
   }
 }
-/* line 13, ../scss/utilities/_wrap.scss */
+/* line 19, ../scss/utilities/_wrap.scss */
 .wrapSmall, .section {
   max-width: 660px;
   margin-right: auto;
@@ -8316,7 +8319,7 @@ body {
 }
 
 @media (max-width: 760px) {
-  /* line 20, ../scss/utilities/_wrap.scss */
+  /* line 26, ../scss/utilities/_wrap.scss */
   .wrapSmall, .section {
     max-width: 100%;
   }
