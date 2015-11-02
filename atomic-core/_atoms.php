@@ -1,3 +1,4 @@
+<div class="colorFixed"><?php include ("../components/atoms/colors.php");?></div>
 <span id="colors"></span><div class="component"><?php include("../components/atoms/colors.php");?></div>
 <span id="fonts"></span><div class="component"><?php include("../components/atoms/fonts.php");?></div>
 <span id="headings"></span><div class="component"><?php include("../components/atoms/headings.php");?></div>
