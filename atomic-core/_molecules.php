@@ -1,3 +1,4 @@
+<div class="colorFixed"><?php include ("../components/atoms/colors.php");?></div>
 <span id="legal"></span><div class="component"><?php include("../components/molecules/legal.php");?></div>
 <span id="img-frame"></span><div class="component"><?php include("../components/molecules/img-frame.php");?></div>
 <span id="listAddr"></span><div class="component"><?php include("../components/molecules/listAddr.php");?></div>

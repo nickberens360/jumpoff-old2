@@ -1,3 +1,4 @@
+<div class="colorFixed"><?php include ("../components/atoms/colors.php");?></div>
 <span id="block-grid"></span><div class="component"><?php include ("../components/utilities/block-grid.php");?></div>
 <span id="section"></span><div class="component"><?php include("../components/utilities/section.php");?></div>
 <span id="main"></span><div class="component"><?php include("../components/utilities/main.php");?></div>
