@@ -9181,11 +9181,6 @@ body {
   display: none;
 }
 
-/* line 7, ../scss/utilities/_accordion.scss */
-p {
-  margin: 0;
-}
-
 /**
  * selectize.css (v0.12.1)
  * Copyright (c) 2013–2015 Brian Reavis & contributors
@@ -9999,9 +9994,10 @@ html.swipebox-html.swipebox-touch {
   margin-right: 10px;
   padding: 10px;
   color: #fff;
+  font-size: 12px;
 }
 
-/* line 13, ../scss/atoms/_colors.scss */
+/* line 14, ../scss/atoms/_colors.scss */
 .colorFixed {
   position: fixed;
   z-index: 3000;
@@ -10010,12 +10006,12 @@ html.swipebox-html.swipebox-touch {
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.57);
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.57);
 }
-/* line 19, ../scss/atoms/_colors.scss */
+/* line 20, ../scss/atoms/_colors.scss */
 .colorFixed .color {
   float: none;
   margin-right: 0;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 50px;
 }
 
 /* line 1, ../scss/atoms/_headings.scss */
@@ -10654,9 +10650,4 @@ At the template stage, we break our chemistry analogy to get into language that 
 /* line 1, ../scss/_cleanup.scss */
 img {
   max-width: 100%;
-}
-
-/* line 4, ../scss/_cleanup.scss */
-body {
-  background: #dddee0;
 }

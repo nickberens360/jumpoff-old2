@@ -293,6 +293,7 @@ pre[class*="language-"] {
   float: right;
   padding: 20px;
   transition: all .5s;
+  background: #dddee0;
 }
 
 .atoms-code-example {
@@ -333,13 +334,14 @@ pre[class*="language-"] {
   padding-top: 13px;
 }
 
-.atomic-link-main {
+a.atomic-link-main {
   display: block;
   padding: 10px 38px;
   padding-left: 0;
   margin-left: 38px;
   text-transform: uppercase;
   color: #a6adb3;
+  font-size: 14px;
 }
 
 .atomic-link-main:hover {
