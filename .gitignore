@@ -1,6 +1,5 @@
 # Ignore everything
-/*
-index.php
+*
 
 # But not these files
 !atomic-core/*
@@ -13,3 +12,4 @@ index.php
 !_atomic-footer.php
 !_atomic-header.php
 !.gitignore
+!index.php
