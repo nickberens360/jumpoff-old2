@@ -5,6 +5,9 @@
 /*.config
 /*.inc
 /*.ini
+/*.png
+/*.ico
+/*.txt
 !/.gitignore
 !/atomic-index.php
 !/_atomic-header.php
