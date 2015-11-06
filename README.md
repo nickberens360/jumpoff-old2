@@ -1,2 +1,0 @@
-# jumpoff
-Project boilerplate

@@ -1,1 +1,0 @@
-<img class="img-frame" src="http://placehold.it/350x150">
