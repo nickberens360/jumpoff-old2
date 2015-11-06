@@ -1,1 +1,3 @@
 /*.php
+!/_atomic-header.php
+!/_atomic-footer.php
