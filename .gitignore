@@ -2,7 +2,7 @@
 *
 
 # But not these files
-!atomic-core/atoms.php
+!/atomic-core
 !components/*
 !css/*
 !fonts/*
