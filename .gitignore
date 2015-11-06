@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# But not these files
+!atomic-core/*
+!components/*
+!css/*
+!fonts/*
+!img/*
+!js/*
+!scss/*
+!_atomic-footer.php
+!_atomic-header.php
