@@ -1,5 +1,7 @@
 # Ignore everything
-*
+/*
+index.php
+
 # But not these files
 !atomic-core/*
 !components/*
