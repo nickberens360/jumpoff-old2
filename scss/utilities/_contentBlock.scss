@@ -1,0 +1,10 @@
+.contentBlock{
+  border:1px solid red;
+  @extend .grid-row;
+}
+.contentBlock-left{
+  @include col($four);
+}
+.contentBlock-right{
+  @include col($eight);
+}

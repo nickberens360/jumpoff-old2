@@ -1,0 +1,12 @@
+.footerMain{
+	border:1px solid red;
+
+}	
+.footerMain-inner{
+  @extend .wrap;
+}
+
+.footerMain-item{
+  @include col($four); 
+  border:1px solid green;
+}

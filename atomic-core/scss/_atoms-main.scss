@@ -1,0 +1,32 @@
+.atoms-container{
+	height:100%;
+}
+
+
+
+.atoms-main{
+	
+	@include col($ten);
+	float:right;
+	padding:20px;
+	transition:all .5s;
+  background:#dddee0; 
+}
+
+
+
+
+
+
+
+.atoms-code-example{
+	position:relative;
+}
+
+
+
+.atoms-group{
+	margin-bottom:50px;
+}
+
+
